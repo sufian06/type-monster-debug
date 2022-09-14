@@ -116,9 +116,9 @@ const start = () => {
       countdownOverlay.style.display = "flex";
       display.classList.remove("inactive");
       
-      // clearInterval(startCountdown);
+      clearInterval(startCountdown);
       startTime = new Date().getTime();
-      
+      countdownOverlay.style.display = "none";
     }
     count--;
   }, 1000);
