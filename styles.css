@@ -206,6 +206,7 @@ button {
 .faq-area {
   width: 80%;
   margin: 0 auto;
+  margin-top: 50px;
 }
 .single-faq {
   height: 150px;
