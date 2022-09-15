@@ -201,3 +201,35 @@ button {
     flex-direction: column;
   }
 }
+
+/* blog */
+.faq-area {
+  width: 80%;
+  margin: 0 auto;
+}
+.single-faq {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 15px;
+  padding: 15px 30px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    92.49deg,
+    rgba(255, 255, 255, 0.1) 0.18%,
+    rgba(255, 255, 255, 0.05) 99.85%
+  );
+  backdrop-filter: blur(5px);
+  margin-bottom: 30px;
+}
+.single-faq h3 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.single-faq p {
+  font-size: 18px;
+}
